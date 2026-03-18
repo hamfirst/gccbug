@@ -4,6 +4,7 @@ module;
 #include <cstdint>
 #include <limits>
 #include <mutex>
+#include <bit>
 
 export module YT:BlockTable;
 
