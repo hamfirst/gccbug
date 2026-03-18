@@ -1,0 +1,10 @@
+ninja_dyndep_version = 1.0
+build BlockTable.ixx.o | ./YT-BlockTable.gcm: dyndep | ./YT-Types.gcm
+  restat = 1
+
+build Types.ixx.o | ./YT-Types.gcm: dyndep
+  restat = 1
+
+build YT.ixx.o | ./YT.gcm: dyndep | ./YT-Types.gcm
+  restat = 1
+

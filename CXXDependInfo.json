@@ -1,0 +1,58 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" :
+	{
+		"BlockTable.ixx.o" :
+		{
+			"bmi-only" : false,
+			"destination" : null,
+			"name" : "CXX_MODULES",
+			"relative-directory" : ".",
+			"source" : "./BlockTable.ixx",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		},
+		"Types.ixx.o" :
+		{
+			"bmi-only" : false,
+			"destination" : null,
+			"name" : "CXX_MODULES",
+			"relative-directory" : ".",
+			"source" : "./Types.ixx",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		},
+		"YT.ixx.o" :
+		{
+			"bmi-only" : false,
+			"destination" : null,
+			"name" : "CXX_MODULES",
+			"relative-directory" : ".",
+			"source" : "./YT.ixx",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		}
+	},
+	"database-info" : null,
+	"dir-cur-bld" : "/home/nick/Projects/gccbug",
+	"dir-cur-src" : "/home/nick/Projects/gccbug",
+	"dir-top-bld" : "/home/nick/Projects/gccbug",
+	"dir-top-src" : "/home/nick/Projects/gccbug",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : ".",
+	"sources" :
+	{
+		"main.cpp.o" :
+		{
+			"language" : "CXX",
+			"source" : "main.cpp"
+		}
+	}
+}
